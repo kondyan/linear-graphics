@@ -10,6 +10,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
+  overflow: hidden;
 }
 
 .canvas-window {
@@ -129,4 +130,14 @@ function-input:focus {
 
 function-input:hover {
   outline: 1px solid lightgrey;
+}
+
+.author {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+
+p > a {
+  color: inherit;
 }
