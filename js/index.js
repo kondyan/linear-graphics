@@ -22,7 +22,7 @@ function drawLinearFunction(graphFunction) {
   ctx.lineWidth = 1;
   for (let xS = 0; xS <= 399; xS++) {
     const x = xS - 200;
-    const y = eval(graphFunction);
+    const y = eval(graphFunction.toLowerCase());
     const yS = 200 - y;
     // ctx.fillRect(xS, yS, 2, 2);
 
